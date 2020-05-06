@@ -7,7 +7,7 @@ My config files. Structure and scripts from caarlos0 [dotfiles](https://github.c
 Then, run these steps:
 
 ```console
-$ git clone https://github.com/caarlos0/dotfiles.git ~/.dotfiles
+$ git clone https://github.com/jiwidi/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
 $ ./script/bootstrap
 $ zsh # or just close and open your terminal again.
