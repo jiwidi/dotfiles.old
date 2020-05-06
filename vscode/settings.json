@@ -20,7 +20,7 @@
 	"files.trimTrailingWhitespace": true,
 	"editor.minimap.enabled": false,
 	"editor.renderWhitespace": "boundary",
-	"workbench.colorTheme": "Solarized Dark",
+	"workbench.colorTheme": "Dracula",
 	"window.zoomLevel": 0,
 	"extensions.ignoreRecommendations": false,
 	"go.coverageDecorator": {
