@@ -10,8 +10,8 @@ autoload -U down-line-or-beginning-search
 autoload -U edit-command-line
 
 HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=1000000
+SAVEHIST=1000000
 
 # don't nice background tasks
 setopt NO_BG_NICE

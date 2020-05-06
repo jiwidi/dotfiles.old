@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "Installing vscode"
 if command -v code >/dev/null; then
 	if [ "$(uname -s)" = "Darwin" ]; then
 		VSCODE_HOME="$HOME/Library/Application Support/Code"
@@ -14,4 +15,7 @@ if command -v code >/dev/null; then
 	while read -r module; do
 		code --install-extension "$module" || true
 	done <"$DOTFILES/vscode/extensions.txt"
+
+	set -e
+	code --list-extensions >"$DOTFILES/vscode/extensions.txt"
 fi
