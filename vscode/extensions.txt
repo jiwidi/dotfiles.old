@@ -1,4 +1,5 @@
 be5invis.toml
+DavidAnson.vscode-markdownlint
 dawhite.mustache
 dracula-theme.theme-dracula
 eamodio.gitlens
@@ -17,4 +18,6 @@ rebornix.ruby
 rust-lang.rust
 shanoor.vscode-nginx
 timonwong.shellcheck
+wingrunr21.vscode-ruby
 wmaurer.change-case
+yzhang.markdown-all-in-one
