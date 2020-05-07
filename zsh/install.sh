@@ -2,10 +2,7 @@
 _install zsh
 
 # oh-my-zsh
-git clone https://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
-
-# change shell
-chsh zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # plugins and theme
 git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
@@ -13,5 +10,8 @@ git clone https://github.com/bhilburn/powerlevel9k.git $HOME/.oh-my-zsh/custom/t
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-completions $HOME/.oh-my-zsh/custom/plugins/zsh-completions
 
+
+#Highlighting 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-syntax-highlighting" --depth 1
+
 # link zshrc file
-ln -sf $HOME/.dotfiles/zsh/zshrc $HOME/.zshrc

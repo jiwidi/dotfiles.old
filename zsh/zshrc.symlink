@@ -2,6 +2,14 @@
 # uncomment this and the last line for zprof info
 # zmodload zsh/zprof
 
+#VISUALS
+ZSH_THEME="agnoster"
+
+#HISTORY
+HISTFILE=~/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=1000000
+
 # shortcut to this dotfiles path is $DOTFILES
 export DOTFILES="$HOME/.dotfiles"
 
@@ -15,6 +23,9 @@ export VEDITOR='code'
 # all of our zsh files
 typeset -U config_files
 config_files=($DOTFILES/*/*.zsh)
+
+#Syntax highlighting
+source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # load the path files
 for file in ${(M)config_files:#*/path.zsh}; do
