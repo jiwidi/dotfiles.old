@@ -74,11 +74,8 @@ bindkey '^[[3;5~' backward-delete-word
 # bindkey '^[[3~' backward-delete-word
 
 # edit command line in $EDITOR
-<<<<<<< HEAD
 # bindkey '^e' edit-command-line
-=======
 bindkey '^e' edit-command-line
->>>>>>> 798535d4f1bf25642fe5a81665c05a4a522a0356
 
 # search history with fzf if installed, default otherwise
 if test -d /usr/local/opt/fzf/shell; then
