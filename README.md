@@ -1,6 +1,12 @@
 # dotfiles
 My config files. Structure and scripts from caarlos0 [dotfiles](https://github.com/caarlos0/dotfiles). I made some changes to his configs to make them more suitable for my daily use and also added `oh-my-zsh` (he was using normal zsh) support. It works on top of zsh and makes life easier, the theme is the new powerline10k.
 
+I use them to keep my configs between ubuntu and mac sync! And if any time I need to reinstall i wont lose all my work put in making the files. Here is a screenshot on how my oh-my-zsh terminal would look like with the default ubuntu terminal client and iterm2 for mac:
+
+
+<img src="https://raw.githubusercontent.com/jiwidi/dotfiles/master/.img/mac.png" width="800"> 
+<img src="https://raw.githubusercontent.com/jiwidi/dotfiles/master/.img/ubuntu.png" width="800">
+
 ### Dependencies
 - `git`: to clone the repo
 - `curl`: to download some stuff
