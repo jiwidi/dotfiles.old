@@ -1,7 +1,12 @@
 # dotfiles
 My config files. Structure and scripts from caarlos0 [dotfiles](https://github.com/caarlos0/dotfiles). I made some changes to his configs to make them more suitable for my daily use and also added `oh-my-zsh` support. It works on top of zsh and makes life easier, the theme is the new powerline10k.
 
-
+### Dependencies
+- `git`: to clone the repo
+- `curl`: to download some stuff
+- `tar`: to extract downloaded stuff
+- `zsh`: to actually run the dotfiles
+- `sudo`: some configs may need that
 ### Install
 
 Then, run these steps:
