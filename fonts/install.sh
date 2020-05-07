@@ -5,4 +5,4 @@ cd "powerline/"
 ./install.sh
 # clean-up a bit
 cd ..
-#rm -rf fonts
+rm -rf powerline
