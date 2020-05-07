@@ -1,5 +1,5 @@
 # dotfiles
-My config files. Structure and scripts from caarlos0 [dotfiles](https://github.com/caarlos0/dotfiles). I made some changes to his configs to make them more suitable for my daily use and also added `oh-my-zsh` support. It works on top of zsh and makes life easier, the theme is the new powerline10k
+My config files. Structure and scripts from caarlos0 [dotfiles](https://github.com/caarlos0/dotfiles). I made some changes to his configs to make them more suitable for my daily use and also added `oh-my-zsh` support. It works on top of zsh and makes life easier, the theme is the new powerline10k.
 
 
 ### Install
@@ -12,6 +12,8 @@ $ cd ~/.dotfiles
 $ ./script/bootstrap
 $ zsh # or just close and open your terminal again.
 ```
+
+After installation the powerline10k will run you through the configuration wizard.
 
 ### Fonts
 Powerline fonts are installed as default but you will need to set them as font on your terminal manually. Also worth checking MesloFonts:
