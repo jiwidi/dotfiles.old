@@ -1,5 +1,4 @@
 {
-	"editor.fontSize": 15,
 	"editor.formatOnSave": true,
 	"editor.rulers": [
 		80,
@@ -81,5 +80,12 @@
 	"editor.smoothScrolling": true,
 	"files.exclude": {
 		"yarn.lock": true
-	}
+	},
+	"git.autofetch": true,
+	"explorer.confirmDelete": false,
+	"editor.fontSize": 15,
+	"python.formatting.autopep8Args": [
+		"--aggressive ",
+		"--aggressive"
+	]
 }
