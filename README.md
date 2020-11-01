@@ -24,7 +24,7 @@ $ ./script/bootstrap
 $ zsh # or just close and open your terminal again.
 ```
 
-After installation the powerline10k will run you through the configuration wizard.
+After installation the powerline10k will run you through the configuration wizard. If you have any problems after the configuration wizard just make sure you have the correct fonts installed and selected and run it again with `p10k configure` 
 
 ### Fonts
 Powerline fonts are installed as default but you will need to set them as font on your terminal manually. Also worth checking MesloFonts:
